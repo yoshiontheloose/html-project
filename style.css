@@ -1,51 +1,47 @@
 body {
-    background-color: bisque;
+    background-image: url(https://i.imgur.com/CnIaPPO.png);  
 }
 
 header, footer{
-    background-color: rgb(50, 109, 168);
-    border: black 1px solid;
-    margin-bottom: 20px;
+    background-color: rgba(68, 106, 209, 0.63);
+    border: black 4px solid;
+    margin-bottom: 35px;
 }
 
 h1 {
-    color: #f0f2f5;
+    color: rgb(170, 170, 170);
     text-align: center;
+    font-size: 70px;
+    font-style: italic;
 
 }
 
 nav {
     text-align: center;
+
 }
 
 li {
-    border: black 2px solid;
+    border: rgba(148, 148, 148) 2px solid;
     display: inline;
-    background-color: #d0aae6;
-    padding: 5px 10px;
-    margin: 0px 20px;
+    background-color: #5fbcd8;
+    padding: 3px 20px;
+    margin: 20px 20px;
+    font-size: 20px
 }
 
 article {
     text-align: center;
+    margin: 10px 0px;
+    font-size: 40px;
+        color:rgb(202, 200, 200)
 }
 
 footer > p {
     color: #f0f2f5;
-
-}
-
-#ptag_color {
-    color:turquoise;
+    text-align: right;
 }
 
 .other_color {
     color:rgb(32, 32, 26);
-}
-
-
-
-article {
-    border: solid black 1px;
-    margin: 10px 0px;
 }
